@@ -9,7 +9,7 @@ var cities = [
 
 if (userInput) {
   if (userInput === "Islamabad") {
-    alert("Islamabad is the cleanest city of Pakistan! : \n NOTE : First Letter of the city must be capitalized.");
+    alert("Islamabad is the cleanest city of Pakistan!");
   } else if (cities.indexOf(userInput) !== -1) {
     alert(userInput + " is a city in Pakistan.");
   } else {
